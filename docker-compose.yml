@@ -1,4 +1,4 @@
 arm:
   build: .
   environment:
-    ENV: TEST
+    - ENV=TEST
