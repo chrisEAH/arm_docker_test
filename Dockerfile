@@ -3,5 +3,5 @@ WORKDIR /app
 COPY app /app
 
 RUN npm install
-ENTRYPOINT ["sh", "./cmd.sh" ]
+CMD [".cmd.sh"]
 
