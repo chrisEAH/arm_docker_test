@@ -3,7 +3,8 @@
 set -e
 
 
-if["$ENV" = 'TEST']; then
+if ["$ENV" = 'TEST']
+    then
     echo "running Test"
     exec npm start
 else
