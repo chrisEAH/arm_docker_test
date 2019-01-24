@@ -1,4 +1,4 @@
-FROM node:arm32v6
+FROM node:arm32v7
 WORKDIR /app
 COPY app /app
 
