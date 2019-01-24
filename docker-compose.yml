@@ -1,4 +1,4 @@
 arm:
   build: .
-  enviroment:
-    ENV: PROD
+  environment:
+    ENV: TEST
